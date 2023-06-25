@@ -1,0 +1,56 @@
+==========================================
+Day 1:
+==========================================
+
+
+Java Introduction
+Hell World
+Variables
+Methods
+Primitive data types
+Take user input using Scanner
+Arrays
+If/else if
+For
+While
+Switch
+Break
+
+
+==========================================
+Day 2:
+==========================================
+Do while
+When to use For,While, do while
+Different types of primitives,Primitives conversions(Integer to String etc)
+Classes and Objects creation
+Constructor(Default,All argument constructor)
+Primitives vs wrapper classes and conversion(Auto boxing and unboxing)
+Operators:
+	Assignment Operator(=)
+	Arithmetic Operator(+, -, *, /, %)
+	Unary Operator(+, -, ++, --, !)
+	Relational Operator(==, !=, >, >=, <, <=)
+	Conditional Operator((&&, ||))	
+String Operations(subString,IndexOf,Split,compareTo,Equals,EqualsIgnoreCase,ReplaceAll,ReplaceFirst)	
+
+
+==========================================
+Day 3:
+==========================================
+Static
+Final
+Access Modifier
+Enumerations
+Inheritance
+
+==========================================
+Day 4:
+==========================================
+Static Polymorphism - Method Overloading 
+Run time polymorphism - Method overriding
+Abstraction - Abstract classes,Interfaces
+ArrayList
+HashSet
+HashMap
+Exceptional handling

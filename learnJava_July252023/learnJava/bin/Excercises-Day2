@@ -1,0 +1,52 @@
+Practice online: https://www.w3schools.com/java/exercise.asp?filename=exercise_syntax1
+
+Excercises:
+=====================================
+
+Develop a calculator i.e. Create operation Add,Substract,division for given two numbers. Use switch case statement
+
+3. Return the Next Number from the Integer Passed. Create a function that takes a number as an argument, increments the number by +1 and returns the result.
+
+
+4. Is the Number Less than or Equal to Zero?Create a method that takes an integer as its only argument and returns true if it's less than or equal to zero, otherwise return false.
+
+lessThanOrEqualToZero(5) ➞ false
+
+lessThanOrEqualToZero(0) ➞ true
+
+lessThanOrEqualToZero(-2) ➞ true
+
+Less Than 100?
+
+using For loop Write a program that uses a for loop to print the numbers from 1 to 10.
+
+Using while loop, Write a program that uses a while loop to print the even numbers from 1 to 20.
+
+Write a program that uses a do-while loop to repeatedly prompt the user to enter a number until they enter 100. Display the sum of all the numbers entered.
+
+Write a program that prompts the user to enter two numbers and performs the following operations:
+
+Addition
+Subtraction
+Multiplication
+Division (handle division by zero)
+Modulus (remainder)
+
+
+Create an Employee object having firstName,LastName,Role,Salary. Create instance of Employee object and create a method "IncrementSalary" 
+which accepts percent as input parameter. and output of this method should be "Salary =  salary + (%ofincrement on salary)" 
+
+  public int IncrementSalary(int percent){
+        this.salary += "complete this method here";
+        return this.salary;
+    }
+
+    
+Write a Java program that demonstrates the difference between pre-increment and post-increment operators. Create a variable count and initialize it with a value of 5. Use both pre-increment and post-increment operators to increment the value of count. Print the value of count before and after each increment operation.
+
+Write a Java program to calculate the sum of two numbers using pre-decrement and post-decrement operators. Create two variables num1 and num2 and initialize them with any integer values. Use pre-decrement and post-decrement operators to decrement the values of num1 and num2 respectively, and store the decremented values in new variables. Finally, calculate the sum of the decremented values and print the result.
+
+Write a Java program that demonstrates the concept of unary minus (-) operator. Create a variable value and assign it a positive integer value. Use the unary minus operator to obtain the negative value of value and store it in a new variable. Print both the original and negated values of value.
+
+Write a Java program to swap the values of two variables without using a temporary variable. Create two variables a and b and assign them any integer values. Use the pre-increment and pre-decrement operators to swap the values of a and b. Print the values of a and b before and after the swap.    
+    

@@ -1,0 +1,7 @@
+Use an abstract class when you want to 
+
+1) provide a common base implementation for multiple related classes.
+2) define default behavior that can be shared among subclasses.
+3) provide a partial implementation of a class and leave certain methods to be implemented by subclasses.
+4) have constructor(s) or instance variables in the class.
+5) create a hierarchy of classes, where the abstract class represents a more general concept and the subclasses represent specific variations or extensions of that concept.

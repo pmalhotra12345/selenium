@@ -1,0 +1,17 @@
+When to use For,DO, do-while
+
+FOR
+==========================================================================
+when you know the number of iterations in advance or when iterating over a range of values. It consists of an initialization, a condition, and an update statement. 
+The loop body executes as long as the condition is true.
+
+while
+=========================================================================
+
+while	Use when you want to repeat the loop body as long as a condition is true. The condition is checked before each iteration.
+
+
+
+do-while	
+=========================================================================
+Use when you want to ensure that the loop body executes at least once, regardless of the condition. The condition is checked after the loop body has executed.

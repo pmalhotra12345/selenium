@@ -1,0 +1,31 @@
+Practice online: https://www.w3schools.com/java/exercise.asp?filename=exercise_syntax1
+
+Excercises:
+=====================================
+
+Add the two numbers and store the result in a third variable.
+Subtract the second number from the first and store the result in a fourth variable.
+Multiply the first and second numbers and store the result in a fifth variable.
+Print the values of the third, fourth, and fifth variable
+Return the Sum of Two Numbers. Some examples are below
+
+		SumOfTwoNumbers(3, 2) ➞ 5
+
+		SumOfTwoNumbers(-3, -6) ➞ -9
+
+		SumOfTwoNumbers(7, 3) ➞ 10
+
+Write a program that contains a method called "calculateAverage" that takes three integers as parameters and returns their average as a double. 
+Call the method with some sample values and print the result.
+
+Using Write a program that prompts the user to enter their age. Based on the entered age, display one of the following messages:
+
+If the age is less than 18, print "You are a minor."
+If the age is between 18 and 65 (inclusive), print "You are an adult."
+If the age is greater than 65, print "You are a senior citizen."
+
+Using Else-If Statement
+Write a program that prompts the user to enter an integer between 1 and 7 (inclusive) representing a day of the week. Based on the entered value, display the corresponding day name. If an invalid value is entered, display "Invalid input."
+
+    
+    

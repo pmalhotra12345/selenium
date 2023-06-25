@@ -1,0 +1,19 @@
+Exercise 1: Static and Final
+Create a class called "MathUtils" with the following specifications:
+
+Include a static method called "multiply" that takes two integers as parameters and returns their product.
+Include a final variable called "PI" with a value of 3.14159.
+Create an instance method called "add" that takes two integers as parameters and returns their sum.
+Exercise 2: Access Modifiers
+Create a package called "vehicles" with the following classes:
+
+Create a public class called "Vehicle" with a protected instance variable called "manufacturer" and a public method called "getManufacturer" to retrieve its value.
+Create a default class called "Car" that extends "Vehicle" and has a private instance variable called "model". Implement a public method called "getModel" to retrieve its value.
+Exercise 3: Enumerations
+Create an enumeration called "DayOfWeek" with the following days: SUNDAY, MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY. Create a method called "isWeekend" that takes a "DayOfWeek" parameter and returns true if it is a weekend day (Saturday or Sunday), and false otherwise.
+
+Exercise 4: Inheritance
+Create a class called "Shape" with an instance variable called "color" and a method called "getColor" to retrieve its value.
+
+Create a class called "Circle" that extends "Shape" and includes an additional instance variable called "radius". Implement a method called "getArea" that returns the area of the circle.
+Create a class called "Rectangle" that extends "Shape" and includes two additional instance variables called "width" and "height". Implement a method called "getArea" that returns the area of the rectangle.

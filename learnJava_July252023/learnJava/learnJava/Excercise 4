@@ -1,0 +1,24 @@
+Exercise 1: Static Polymorphism (Method Overloading)
+Create a class called "Calculator" with the following overloaded methods:
+
+add(int a, int b) that returns the sum of two integers.
+add(double a, double b) that returns the sum of two doubles.
+add(int a, int b, int c) that returns the sum of three integers.
+Exercise 2: Runtime Polymorphism (Method Overriding)
+Create a base class called "Animal" with a method makeSound() that prints "Animal is making a sound".
+Create a derived class called "Cat" that extends "Animal" and overrides the makeSound() method to print "Meow! Cat is making a sound".
+
+Exercise 3: Abstraction (Abstract Classes, Interfaces)
+Create an abstract class called "Shape" with an abstract method calculateArea() and a concrete method displayShape(). Create two subclasses: "Circle" and "Rectangle" that extend "Shape" and implement the calculateArea() method accordingly.
+
+Exercise 4: ArrayList
+Create an ArrayList called "names" to store strings. Add five names to the list and print them in reverse order.
+
+Exercise 5: HashSet
+Create a HashSet called "numbers" to store integers. Add some duplicate and non-duplicate numbers to the set. Print the set to see the unique numbers stored.
+
+Exercise 6: HashMap
+Create a HashMap called "studentGrades" to store student names as keys and their corresponding grades as values. Add some student names and grades to the map. Implement a method called getGrade(String studentName) that retrieves the grade for a given student name.
+
+Exercise 7: Exception Handling
+Write a program that takes input from the user for two integers and performs division. Implement exception handling to handle potential divide-by-zero errors and display an appropriate error message.

@@ -1,0 +1,18 @@
+Use an interface when you want to 
+
+1) define a contract or a set of behaviors that a class must implement.
+2) achieve multiple inheritances, as a class can implement multiple interfaces but can only extend a single class.
+3) when you want to provide a common interface that unrelated classes can implement to enable polymorphism.
+4) when you want to define a lightweight, loosely coupled design that allows for flexibility and easy evolution of your code.
+5) Use an interface when you want to enforce a specific behavior without providing any implementation details.
+
+
+Abstract class vs interface
+
+abstract classes provide a mix of both abstract and concrete elements, allowing partial implementation and shared functionality, while interfaces provide a pure contract with no implementation details, enforcing complete abstraction and providing a common interface for unrelated classes.
+
+
+
+Through interface 100% abstraction can be achieved. i.e. the implementation details of the class are not known to caller.
+But to demostrate this we need frame work like spring which uses dependency injection. But in the example given here
+abstraction is achieved at the usage level rather than at the implementation level
