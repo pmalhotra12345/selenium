@@ -11,6 +11,6 @@ public class Dog extends AnimalAbstractClass {
 
 	// Implementation of abstract method
     void makeSound() {
-        System.out.println(name + " is barking.");
+        System.out.println(name + " is bbarking.");
     }
 }
