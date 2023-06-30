@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="learnJava_July252023/learnJava/learnJava"/>
+	<classpathentry kind="output" path="learnJava_July252023/learnJava/bin"/>
+</classpath>
