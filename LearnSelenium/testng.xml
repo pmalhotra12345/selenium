@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Loan dept">
+	<test name="Personal Loan">
+	<packages>
+	<package name ="testngpackage"/>
+	</packages>
+	</test>
+</suite>
+
+
+

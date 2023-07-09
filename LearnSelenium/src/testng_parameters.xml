@@ -1,0 +1,26 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests"  name="suite">
+  <test name="demo1" >
+      <parameter name="keyWord" value="Selenium" />
+      <classes>
+      <class name="parameterization.ParameterizedClass"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+   <test name="demo2" >
+    <parameter name="keyWord" value="LambdaTest" />
+    <classes>
+      <class name="parameterization.ParameterizedClass"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+	
+   	<test name="demo3" >
+   	<parameter name="keyWord" value="Browser Testing" />
+    <classes>
+      <class name="parameterization.ParameterizedClass"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
