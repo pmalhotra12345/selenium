@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.10.5 on win32)" generated="20231111 09:22:36.931" rpa="false" schemaversion="4">
+<suite id="s1" name="PushpinderProjectsGit" source="C:\Users\aarav\eclipse-workspace\PushpinderProjectsGit">
+<suite id="s1-s1" name="RobotFramework" source="C:\Users\aarav\eclipse-workspace\PushpinderProjectsGit\RobotFramework">
+<suite id="s1-s1-s1" name="RobotFramework" source="C:\Users\aarav\eclipse-workspace\PushpinderProjectsGit\RobotFramework\RobotFramework">
+<suite id="s1-s1-s1-s1" name="Tests" source="C:\Users\aarav\eclipse-workspace\PushpinderProjectsGit\RobotFramework\RobotFramework\tests">
+<suite id="s1-s1-s1-s1-s1" name="testDemo1" source="C:\Users\aarav\eclipse-workspace\PushpinderProjectsGit\RobotFramework\RobotFramework\tests\testDemo1.robot">
+<test id="s1-s1-s1-s1-s1-t1" name="Validate UnSuccesful Login" line="12">
+<kw name="open the browser with the Mortgage payment url">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>https://www.google.com</arg>
+<arg>Chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20231111 09:22:37.290" level="INFO">Opening browser 'Chrome' to base url 'https://www.google.com'.</msg>
+<msg timestamp="20231111 09:22:39.024" level="WARN">The chromedriver version (116.0.5845.96) detected in PATH at C:\DRIVERS\chromedriver.exe might not be compatible with the detected chrome version (119.0.6045.106); currently, chromedriver 119.0.6045.105 is recommended for chrome 119.*, so it is advised to delete the driver in PATH and retry</msg>
+<msg timestamp="20231111 09:22:42.462" level="INFO">Cannot capture screenshot because no browser is open.</msg>
+<msg timestamp="20231111 09:22:42.462" level="FAIL">SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 116
+Current browser version is 119.0.6045.106 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Stacktrace:
+	GetHandleVerifier [0x00007FF77E2652A2+57122]
+	(No symbol) [0x00007FF77E1DEA92]
+	(No symbol) [0x00007FF77E0AE3AB]
+	(No symbol) [0x00007FF77E0D9FF5]
+	(No symbol) [0x00007FF77E0D5237]
+	(No symbol) [0x00007FF77E0D2FE1]
+	(No symbol) [0x00007FF77E10EA4F]
+	(No symbol) [0x00007FF77E10E5B0]
+	(No symbol) [0x00007FF77E106DB3]
+	(No symbol) [0x00007FF77E0DD2B1]
+	(No symbol) [0x00007FF77E0DE494]
+	GetHandleVerifier [0x00007FF77E50EF82+2849794]
+	GetHandleVerifier [0x00007FF77E561D24+3189156]
+	GetHandleVerifier [0x00007FF77E55ACAF+3160367]
+	GetHandleVerifier [0x00007FF77E2F6D06+653702]
+	(No symbol) [0x00007FF77E1EA208]
+	(No symbol) [0x00007FF77E1E62C4]
+	(No symbol) [0x00007FF77E1E63F6]
+	(No symbol) [0x00007FF77E1D67A3]
+	BaseThreadInitThunk [0x00007FFC6ECC257D+29]
+	RtlUserThreadStart [0x00007FFC70EAAA78+40]
+</msg>
+<status status="FAIL" starttime="20231111 09:22:37.290" endtime="20231111 09:22:42.462"/>
+</kw>
+<status status="FAIL" starttime="20231111 09:22:37.290" endtime="20231111 09:22:42.462"/>
+</kw>
+<kw name="Fill the login Form">
+<status status="NOT RUN" starttime="20231111 09:22:42.462" endtime="20231111 09:22:42.462"/>
+</kw>
+<kw name="wait until it checks and display error message">
+<status status="NOT RUN" starttime="20231111 09:22:42.478" endtime="20231111 09:22:42.478"/>
+</kw>
+<kw name="verify error message is correct">
+<status status="NOT RUN" starttime="20231111 09:22:42.478" endtime="20231111 09:22:42.478"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary" type="TEARDOWN">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20231111 09:22:42.478" endtime="20231111 09:22:42.478"/>
+</kw>
+<status status="FAIL" starttime="20231111 09:22:37.290" endtime="20231111 09:22:42.478">SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 116
+Current browser version is 119.0.6045.106 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Stacktrace:
+	GetHandleVerifier [0x00007FF77E2652A2+57122]
+	(No symbol) [0x00007FF77E1DEA92]
+	(No symbol) [0x00007FF77E0AE3AB]
+	(No symbol) [0x00007FF77E0D9FF5]
+	(No symbol) [0x00007FF77E0D5237]
+	(No symbol) [0x00007FF77E0D2FE1]
+	(No symbol) [0x00007FF77E10EA4F]
+	(No symbol) [0x00007FF77E10E5B0]
+	(No symbol) [0x00007FF77E106DB3]
+	(No symbol) [0x00007FF77E0DD2B1]
+	(No symbol) [0x00007FF77E0DE494]
+	GetHandleVerifier [0x00007FF77E50EF82+2849794]
+	GetHandleVerifier [0x00007FF77E561D24+3189156]
+	GetHandleVerifier [0x00007FF77E55ACAF+3160367]
+	GetHandleVerifier [0x00007FF77E2F6D06+653702]
+	(No symbol) [0x00007FF77E1EA208]
+	(No symbol) [0x00007FF77E1E62C4]
+	(No symbol) [0x00007FF77E1E63F6]
+	(No symbol) [0x00007FF77E1D67A3]
+	BaseThreadInitThunk [0x00007FFC6ECC257D+29]
+	RtlUserThreadStart [0x00007FFC70EAAA78+40]
+</status>
+</test>
+<doc>To validate the Login form</doc>
+<status status="FAIL" starttime="20231111 09:22:36.962" endtime="20231111 09:22:42.478"/>
+</suite>
+<status status="FAIL" starttime="20231111 09:22:36.962" endtime="20231111 09:22:42.478"/>
+</suite>
+<status status="FAIL" starttime="20231111 09:22:36.946" endtime="20231111 09:22:42.478"/>
+</suite>
+<status status="FAIL" starttime="20231111 09:22:36.946" endtime="20231111 09:22:42.478"/>
+</suite>
+<status status="FAIL" starttime="20231111 09:22:36.931" endtime="20231111 09:22:42.478"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="PushpinderProjectsGit">PushpinderProjectsGit</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s1" name="RobotFramework">PushpinderProjectsGit.RobotFramework</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s1-s1" name="RobotFramework">PushpinderProjectsGit.RobotFramework.RobotFramework</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s1-s1-s1" name="Tests">PushpinderProjectsGit.RobotFramework.RobotFramework.Tests</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s1-s1-s1-s1" name="testDemo1">PushpinderProjectsGit.RobotFramework.RobotFramework.Tests.testDemo1</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20231111 09:22:39.024" level="WARN">The chromedriver version (116.0.5845.96) detected in PATH at C:\DRIVERS\chromedriver.exe might not be compatible with the detected chrome version (119.0.6045.106); currently, chromedriver 119.0.6045.105 is recommended for chrome 119.*, so it is advised to delete the driver in PATH and retry</msg>
+</errors>
+</robot>
