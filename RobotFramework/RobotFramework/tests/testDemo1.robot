@@ -19,7 +19,7 @@ Validate UnSuccesful Login
 open the browser with the Mortgage payment url
 #    Create Webdriver    Chrome  executable_path="C:\DRIVERS\chromedriver.exe"
 #    Go To   https://rahulshettyacademy.com/loginpagePractise/
-    Open Browser    https://www.google.com     Chrome
+    Open Browser    https://rahulshettyacademy.com/loginpagePractise/     Chrome
 
 Fill the login Form
     Input Text          id:username     rahulshettyacademy

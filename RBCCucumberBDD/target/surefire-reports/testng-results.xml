@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="4" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-28T14:56:41Z" name="Surefire suite" finished-at="2024-07-28T14:58:36Z" duration-ms="115183">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:rbc.cucumber.TestRunner.TestNGTestRunner@3c3d9b6b]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2024-07-28T14:56:41Z" name="Surefire test" finished-at="2024-07-28T14:58:36Z" duration-ms="115183">
+      <class name="rbc.cucumber.TestRunner.TestNGTestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:rbc.cucumber.TestRunner.TestNGTestRunner@3c3d9b6b]" started-at="2024-07-28T14:56:41Z" name="setUpClass" finished-at="2024-07-28T14:56:43Z" duration-ms="1547" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@77bb916f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:rbc.cucumber.TestRunner.TestNGTestRunner@3c3d9b6b]" started-at="2024-07-28T14:56:43Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-07-28T14:56:57Z" duration-ms="14778" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Checking the title for home page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Checking the Home PAge Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:rbc.cucumber.TestRunner.TestNGTestRunner@3c3d9b6b]" started-at="2024-07-28T14:56:57Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-07-28T14:57:08Z" duration-ms="10186" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Checking the Search box"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Checking the Home PAge Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:rbc.cucumber.TestRunner.TestNGTestRunner@3c3d9b6b]" started-at="2024-07-28T14:57:08Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-07-28T14:57:23Z" duration-ms="15369" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Checking Simple Mortgage Payment Calculator"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Checking Mortgage Payment Calculator"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <button type="submit" class="btn primary w-mob-100" ng-click="calculate('basic')" ng-enter="">...</button> is not clickable at point (491, 623). Other element would receive the click: <div class="ot-sdk-row">...</div>
+  (Session info: chrome=126.0.6478.182)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [bbadf7a186ff41f4bd40ce7b00c08e70, clickElement {id=f.AFA4C72ACB3BCB41EE09BBBDEF4728C6.d.EC0E3966EC57FB0AF8BE5CA48D843B34.e.48}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.182, chrome: {chromedriverVersion: 125.0.6422.60 (3ac3319bff9f..., userDataDir: C:\Users\aarav\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51580}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51580/devtoo..., se:cdpVersion: 126.0.6478.182, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (bbadf7a186ff41f4bd40ce7b00c08e70)] -> xpath: //form[@name='CalculateBasic']//button]
+Session ID: bbadf7a186ff41f4bd40ce7b00c08e70]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button type="submit" class="btn primary w-mob-100" ng-click="calculate('basic')" ng-enter="">...</button> is not clickable at point (491, 623). Other element would receive the click: <div class="ot-sdk-row">...</div>
+  (Session info: chrome=126.0.6478.182)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [bbadf7a186ff41f4bd40ce7b00c08e70, clickElement {id=f.AFA4C72ACB3BCB41EE09BBBDEF4728C6.d.EC0E3966EC57FB0AF8BE5CA48D843B34.e.48}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.182, chrome: {chromedriverVersion: 125.0.6422.60 (3ac3319bff9f..., userDataDir: C:\Users\aarav\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51580}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51580/devtoo..., se:cdpVersion: 126.0.6478.182, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (bbadf7a186ff41f4bd40ce7b00c08e70)] -> xpath: //form[@name='CalculateBasic']//button]
+Session ID: bbadf7a186ff41f4bd40ce7b00c08e70
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy26.click(Unknown Source)
+at rbc.cucumber.PageObjects.MortgagePaymentCalculatorPage.clickBtn(MortgagePaymentCalculatorPage.java:75)
+at rbc.cucumber.StepDefinitions.MortgagePaymentCalcPageSteps.click_the_calculate_button(MortgagePaymentCalcPageSteps.java:39)
+at ✽.Click the calculate button(file:///C:/Users/aarav/Downloads/RBCCucumberBDD/RBCCucumberBDD/src/test/java/rbc/cucumber/Features/MortgagePaymentCalculator.feature:9)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:rbc.cucumber.TestRunner.TestNGTestRunner@3c3d9b6b]" started-at="2024-07-28T14:57:23Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-07-28T14:57:40Z" duration-ms="17320" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Checking Simple Mortgage Payment Calculator"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Checking Mortgage Payment Calculator"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <button type="submit" class="btn primary w-mob-100" ng-click="calculate('basic')" ng-enter="">...</button> is not clickable at point (491, 623). Other element would receive the click: <div class="ot-sdk-row">...</div>
+  (Session info: chrome=126.0.6478.182)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6b5aff4e30449af1e2fdf24e31ece140, clickElement {id=f.74DC1F3087672EF560567C083E7A3743.d.C86D9C23F6D9D82076D86B8853754119.e.55}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.182, chrome: {chromedriverVersion: 125.0.6422.60 (3ac3319bff9f..., userDataDir: C:\Users\aarav\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51662}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51662/devtoo..., se:cdpVersion: 126.0.6478.182, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (6b5aff4e30449af1e2fdf24e31ece140)] -> xpath: //form[@name='CalculateBasic']//button]
+Session ID: 6b5aff4e30449af1e2fdf24e31ece140]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button type="submit" class="btn primary w-mob-100" ng-click="calculate('basic')" ng-enter="">...</button> is not clickable at point (491, 623). Other element would receive the click: <div class="ot-sdk-row">...</div>
+  (Session info: chrome=126.0.6478.182)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6b5aff4e30449af1e2fdf24e31ece140, clickElement {id=f.74DC1F3087672EF560567C083E7A3743.d.C86D9C23F6D9D82076D86B8853754119.e.55}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.182, chrome: {chromedriverVersion: 125.0.6422.60 (3ac3319bff9f..., userDataDir: C:\Users\aarav\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51662}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51662/devtoo..., se:cdpVersion: 126.0.6478.182, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (6b5aff4e30449af1e2fdf24e31ece140)] -> xpath: //form[@name='CalculateBasic']//button]
+Session ID: 6b5aff4e30449af1e2fdf24e31ece140
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy26.click(Unknown Source)
+at rbc.cucumber.PageObjects.MortgagePaymentCalculatorPage.clickBtn(MortgagePaymentCalculatorPage.java:75)
+at rbc.cucumber.StepDefinitions.MortgagePaymentCalcPageSteps.click_the_calculate_button(MortgagePaymentCalcPageSteps.java:39)
+at ✽.Click the calculate button(file:///C:/Users/aarav/Downloads/RBCCucumberBDD/RBCCucumberBDD/src/test/java/rbc/cucumber/Features/MortgagePaymentCalculator.feature:9)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:rbc.cucumber.TestRunner.TestNGTestRunner@3c3d9b6b]" started-at="2024-07-28T14:57:40Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-07-28T14:58:08Z" duration-ms="27393" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Checking Advanced Mortgage Payment Calculator"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Checking Mortgage Payment Calculator"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:rbc.cucumber.TestRunner.TestNGTestRunner@3c3d9b6b]" started-at="2024-07-28T14:58:08Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-07-28T14:58:35Z" duration-ms="27016" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Checking Advanced Mortgage Payment Calculator"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Checking Mortgage Payment Calculator"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:rbc.cucumber.TestRunner.TestNGTestRunner@3c3d9b6b]" started-at="2024-07-28T14:58:35Z" name="tearDownClass" finished-at="2024-07-28T14:58:36Z" duration-ms="1515" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- rbc.cucumber.TestRunner.TestNGTestRunner -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
